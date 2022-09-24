@@ -1,0 +1,43 @@
+main{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 50px;
+    
+}
+
+.grid-box{
+    border: 5px solid rgb(164, 158, 158);
+    padding: 10px;
+    border-radius: 7px;
+}
+.default-size{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 10px;
+    border: none;
+}
+.buy-btn{
+   margin-left: 37%;
+}
+.buy-btn button{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(98, 146, 170);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buy-btn button:hover{
+
+    background-color:rgb(76, 125, 150) ;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    
+}
